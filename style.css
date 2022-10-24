@@ -537,8 +537,8 @@ section .title::after {
 }
 .contact .contact-content .row img
 {
-  height: 2px;
-  width: 2px;
+  height: 24px;
+  width: 24px;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
