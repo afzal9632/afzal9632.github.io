@@ -535,6 +535,11 @@ section .title::after {
   font-size: 25px;
   color: crimson;
 }
+.contact .contact-content .row img
+{
+  height: 24px;
+  width: 24px;
+}
 .contact .contact-content .info .head {
   font-weight: 500;
 }
@@ -547,7 +552,7 @@ section .title::after {
 }
 
 .contact .contact-content .info .sub-title {
-  color: #333;
+  color: #111;
 }
 .contact .right form .fields {
   display: flex;
