@@ -61,6 +61,11 @@ section .title {
   padding-bottom: 20px;
   font-family: "Ubuntu", sans-serif;
 }
+
+.title{
+margin-top: 80px;
+}
+
 section .title::before {
   content: "";
   position: absolute;
@@ -333,6 +338,8 @@ section .title::after {
   content: "what i know";
 }
 
+
+
 /* skills right column */
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -472,7 +479,16 @@ section .title::after {
   color: white;
 }
 
-.project .carousel .card img {
+/* .project .carousel .card img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 5px solid crimson;
+  transition: all 0.3s ease;
+} */
+
+.projectImage {
   height: 250px;
   width: 250px;
   object-fit: cover;
@@ -480,9 +496,12 @@ section .title::after {
   border: 5px solid crimson;
   transition: all 0.3s ease;
 }
-.project .carousel .card:hover img {
-  border-color: #fff;
+.projectImage:hover {
+  border-color: #fff;
 }
+/* .project .carousel .card:hover img {
+  border-color: #fff;
+} */
 .owl-dots {
   text-align: center;
   margin-top: 20px;
@@ -509,13 +528,20 @@ section .title::after {
 /* .contact .title::after {
    content: "get in touch"; 
 } */
+
+/* #contact{
+  background-color:white;padding-bottom: 0%;
+  margin-bottom: 0%;
+
+} */
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
 .contact .contact-content .text {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  margin-top: 40px;
 }
 .contact .contact-content .left p {
   text-align: justify;
@@ -751,5 +777,11 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+
+  #ts{
+
+    width: 10%;
+    height: 20%;
   }
 }
